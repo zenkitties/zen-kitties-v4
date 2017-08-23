@@ -44,6 +44,7 @@ body {
     width: 19vw;
     display: inline-block;
     font-size: 22px;
+    font-weight: 600;
     text-transform: uppercase; }
 
 /* === Main Content === */
