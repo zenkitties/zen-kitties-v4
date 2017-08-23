@@ -1,0 +1,13 @@
+<div class="breadcrumbs" ng-controller="BreadController">
+    <h2>{{ bread[2].name }}</h2>
+</div>
+<div class="col-md-12 blog-container" ng-controller="BlogsController">
+    <div class="col-md-3" id="blog-image">
+        <img ng-src="{{ blogs[1].img }}" />
+    </div>
+    <div class="col-md-9">
+        <h2>{{ blogs[1].name }}</h2>
+        <p>{{ blogs[1].description }}</p>
+        <a href="{{ blog[1].url }}"><h3>Access the site</h3></a>
+    </div>
+</div>

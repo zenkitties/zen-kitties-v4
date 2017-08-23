@@ -1,0 +1,32 @@
+<div class="col-md-6 col-md-offset-3">
+   <div class="contact-form" ng-controller="ContactFormController" ng-class="{'contact-animation-out': !seeyoulater,'contact-animation-out': seeyoulater} ">
+    <div class="breadcrumbs">
+       <h2>Contact Me</h2>
+    </div>
+    <div class="col-md-12" id="inputs">
+    <form name="zenForm" method="POST" action="//formspree.io/zenfootphilosopher@gmail.com">
+          <div class="form-group">
+              <label for="fullName">Full Name:</label>
+              <input name="firstName" type="text" class="form-control" id="first_name" placeholder="Cloud" required/>
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input name="email" type="email" class="form-control" id="last_name" placeholder="cloudstrife@shinra.com" required/>
+          </div>
+          <div class="form-group">
+              <label for="phoneNumber">Contact Number:</label>
+              <input name="phone" type="tel" class="form-control" id="contact_number" placeholder="(559) 555-1234" />
+          </div>
+          <div class="form-group">
+              <label for="comments">Message:</label>
+              <textarea name="message" class="form-control" id="comment_area" required></textarea>
+          </div>
+          <div class="form-group">
+              <button class="btn btn-zen" id="submit_button" type="submit">Submit Message</button>
+              <button class="btn btn-danger" id="reset_button" type="reset">Reset Form</button>
+              <a class="btn btn-default" id="close_button" ng-click="seeyoulater = !seeyoulater">Close Form</a>
+          </div>
+           </form>        
+        </div>
+    </div>
+</div>
