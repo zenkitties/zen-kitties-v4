@@ -217,7 +217,7 @@ button:hover {
 .back-to-top {
   border-radius: 25px;
   position: absolute;
-  right: -960px;
+  right: -920px;
   bottom: 20px;
   transition: all 250ms ease-in-out; }
   .back-to-top i.fa-chevron-up {
@@ -274,3 +274,45 @@ footer {
     display: block;
     margin: 0 auto;
     padding: 10px; }
+
+/* media quieries for mobile friendliness */
+@media (max-width: 700px) {
+  .main-content {
+    padding: 10px;
+    margin-top: 20px;
+    max-height: 100%; }
+  nav.col-md-12, footer.col-md-12 {
+    padding-left: 0; }
+  .navigation-menu li {
+    width: 17vw;
+    margin-right: 9px;
+    font-size: 15px; }
+  .social-media ul {
+    top: 20px;
+    display: block; }
+  .social-media li {
+    display: inline-block; }
+  .social-media .fa-google-plus {
+    font-size: 32px; }
+  .contact-form {
+    min-width: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+  .contact-animation {
+    top: 150px; }
+  .contact-animation-out {
+    top: -495px; }
+  footer {
+    position: relative;
+    bottom: -150px;
+    clear: both;
+    max-height: 200px; }
+    footer #brand-logo {
+      padding: 10px 0 10px 0;
+      margin-left: -15px; } }
+
+@media (max-width: 1000px) {
+  footer {
+    max-height: 200px;
+    clear: both; } }
