@@ -25,7 +25,7 @@ html ul {
   list-style-type: none; }
 
 body {
-  background: url(img/zen-kitty-background.jpg) center center no-repeat fixed;
+  background: url(/../../img/zen-kitty-background.jpg) center center no-repeat fixed;
   background-size: cover; }
 
 .page-container {
