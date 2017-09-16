@@ -92,8 +92,10 @@ body {
     margin-bottom: 10px; }
   .blog-container h3 {
     margin-bottom: 20px; }
-  .blog-container #blog-image {
+  .blog-container .blog-image {
     padding: 0; }
+  .blog-container .blog {
+    clear: both; }
 
 /* ==== About Me ====*/
 .section-container #about-image {

@@ -47,10 +47,10 @@ kittyApp.config(function($stateProvider, $urlRouterProvider){
     kittyApp.controller('BlogsController',['$scope', function($scope){
         $scope.blogs = [
             {
-                name: 'Passion Flower Tea Lovers',
-                description:'',
-                url: 'http://',
-                img: ''
+                name: 'Matcha Powered',
+                description:'My new side hustle. I\'ve been thinking on this brand for a long time and ran into some really good books and pulled the trigger. Sharing my love of matcha green tea and the many benefits it has to offer. I\'ll have a clothing, and product line out in the future. For now, I share with you all that I know about matcha green tea.',
+                url: 'http://www.matchapowered.com',
+                img: 'img/matcha-powered.png'
             },
             {
                 name: 'Art of Emotional Alchemy',
@@ -58,6 +58,7 @@ kittyApp.config(function($stateProvider, $urlRouterProvider){
                 url: 'http://artofemotionalalchemy.com/',
                 img: 'img/emotional-alchemy.png'
             }
+            
         ]
             
     }]);
